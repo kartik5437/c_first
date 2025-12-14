@@ -2,7 +2,7 @@
 
 int main()
 {
-    int length, breadth, area;
+    int length, cir, breadth, area;
     printf("enter length and breadth of rectangle");
     scanf("%d %d", &length, &breadth);
     area = length * breadth;
