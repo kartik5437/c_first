@@ -2,11 +2,15 @@
 
 int main()
 {
-    int radius;
-    float area;
-    printf("enter the radius of circle \n: ");
-    scanf("%d", &radius);
-    area = 3.14 * radius * radius;
-    printf("area of the circle is %f", area);
+    float radius;
+    float height;
+    float volume;
+    printf("Enter the radius of the circle: ");
+    scanf("%f", &radius);
+    printf("Enter the height of the cylinder: ");
+    scanf("%f", &height);
+    volume = 3.14 * radius * radius * height;
+    printf("The volume of the cylinder is: %.2f\n", volume);
+
     return 0;
 }
